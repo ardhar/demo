@@ -1,0 +1,6 @@
+# Command to run the image as docker container. 
+docker run -d -p 80:5001 --name=apptest1 apptest1
+
+# Tagging & Pushing image to push to ACR
+docker tag apptest1:latest mlacrtest.azurecr.io/apptest1:latest
+docker push mlacrtest.azurecr.io/apptest1:latest
