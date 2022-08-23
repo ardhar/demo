@@ -15,7 +15,7 @@
 
 
 # Buidling an Image
-<i> dodcker build -t image_name:tag . </i>
+<i> docker build -t image_name:tag . </i>
 
 # Command to check if the image is created
 <i> docker image ls </i>
