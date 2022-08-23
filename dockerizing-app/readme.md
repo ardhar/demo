@@ -21,8 +21,8 @@
 <i> docker image ls </i>
 
 # Pushing the Image to Azure Container Registry
-<i> docker tag apptest1:latest <acr_name>.azurecr.io/<image>:<tag> </i> <br>
-<i> docker push <acr_name>.azurecr.io/<image>:<tag> </i>
+<i> docker tag apptest1:latest <acr_name>.azurecr.io/image:tag </i> <br>
+<i> docker push <acr_name>.azurecr.io/image:tag </i>
 
 # Deploying the application on AKS Cluster
 <i> kubectl create -f app.yaml </i>
